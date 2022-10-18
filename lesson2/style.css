@@ -1,5 +1,7 @@
-.body {
-    margin: 0;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .top_block {
@@ -7,7 +9,7 @@
     color: white;
     font-family: Arial;
     height: 300px;
-    margin: 0px 350px 0px 350px;
+    width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,6 +44,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 350px;
-    margin: 0px 350px 0px 350px;
+    height: 300px;
+    width: 800px;
 }
