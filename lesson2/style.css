@@ -1,0 +1,41 @@
+.body{
+    margin: 0;
+}
+.top_block {
+    background-color: blue;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle_block {
+    background-color: white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px 5px;
+    height: 350px;
+}
+
+.middle_chelf {
+    background-color: darkblue;
+    color: white;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.bottom_block {
+    background-color: blue;
+    color: white;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
