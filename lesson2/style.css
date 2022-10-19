@@ -2,45 +2,43 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Arial;
 }
 
 .top_block {
     background-color: blue;
     color: white;
-    font-family: Arial;
     height: 300px;
     width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .middle_block {
     background-color: white;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0px 0px;
     height: 350px;
 }
 
+
 .middle_chelf {
     background-color: darkblue;
     color: white;
-    font-family: Arial;
     height: 300px;
     width: 250px;
-    margin: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .bottom_block {
     background-color: blue;
     color: white;
-    font-family: Arial;
     display: flex;
     justify-content: center;
     align-items: center;
