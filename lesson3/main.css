@@ -1,0 +1,52 @@
+* {
+    font-family: Calibri;
+}
+
+.all_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    width: 900px;
+    margin: 300px;
+}
+
+.main_block {
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    border: black solid 1px;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.Circle {
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    border: black solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 40px;
+    border-radius: 50%;
+}
+
+.title_in_block {
+}
+
+.box {
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 30px;
+    border: black solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
