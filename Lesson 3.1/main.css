@@ -1,0 +1,12 @@
+.main_block {
+    background-color: black;
+    width: 50%;
+    height: 100vh;
+}
+.top_block{
+    background-color: rebeccapurple;
+    width: 150px;
+    height: 50px;
+    border: green solid 2px;
+    justify-content: space-evenly;
+}

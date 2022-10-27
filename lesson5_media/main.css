@@ -1,0 +1,53 @@
+@media screen and (min-width: 0) and (max-width: 972px) {
+
+    .top_block {
+        background-color: silver;
+        width: 100%;
+        height: 50px;
+    }
+
+
+
+    .left_block {
+        width: 100%;
+        background-color: mediumpurple;
+        height: 150px;
+    }
+
+    .right_block {
+        width: 100%;
+        background-color: aquamarine;
+        height: 50px;
+    }
+}
+
+@media screen and (min-width: 972px) and (max-width: 1920px) {
+
+    .top_block {
+        background-color: silver;
+        width: 100%;
+        height: 300px;
+    }
+
+    .bottom_block {
+        width: 100%;
+        height: 450px;
+        background-color: #737373;
+        display: flex;
+    }
+
+    .left_block {
+        width: 80%;
+        background-color: mediumpurple;
+        height: 100%;
+    }
+
+    .right_block {
+        width: 20%;
+        background-color: aquamarine;
+        height: 100%;
+    }
+
+}
+
+
