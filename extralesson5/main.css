@@ -1,0 +1,727 @@
+@media screen and (min-width: 1280px) and (max-width: 1920px) {
+    .top_block {
+        background-color: #737373;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .top_block > .sector {
+        background-color: #a6a6a6;
+        width: 100px;
+        height: 30px;
+        margin: 0 20px 0 20px;
+    }
+
+    .bottom_block {
+        background-color: silver;
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+
+    .left_bar {
+        background-color: cornflowerblue;
+        width: 20%;
+        height: 1050px;
+    }
+
+    .left_bar > .sector {
+        background-color: #a6a6a6;
+        width: 80%;
+        height: 35px;
+        border: #009a00 solid 2px;
+        margin: 20px;
+    }
+
+    .right_content {
+        background-color: #1f1f1f;
+        width: 80%;
+        height: 1000px;
+    }
+
+    .block3 {
+        background-color: plum;
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block3 > .sector {
+        background-color: #a6a6a6;
+        width: 95%;
+        height: 85%;
+    }
+
+    .block4 {
+        background-color: cyan;
+        width: 100%;
+        height: 100px;
+        display: flex;
+    }
+
+    .block4 > .sector_top {
+        background-color: aqua;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .block4 > .sector_top > .min_sector {
+        background-color: #a6a6a6;
+        width: 45%;
+        height: 80%;
+    }
+
+    .block4 > .sector_bottom {
+        background-color: aqua;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .block4 > .sector_bottom > .min_sector {
+        background-color: #a6a6a6;
+        width: 45%;
+        height: 80%;
+    }
+
+    .block5-6 {
+        background-color: greenyellow;
+        width: 100%;
+        height: 600px;
+        display: flex;
+    }
+
+    .block5 {
+        background-color: #5b8303;
+        width: 80%;
+        height: 100%;
+    }
+
+    .block5 > .sector_top {
+        background-color: rebeccapurple;
+        width: 100%;
+        height: 90%;
+    }
+
+    .block5 > .sector_top > .sector1 {
+        background-color: yellow;
+        width: 100%;
+        height: 16.6%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .block5 > .sector_top > .sector1 > .min_sector, .min_sector2 {
+        background-color: #a6a6a6;
+        width: 40%;
+        height: 80%;
+    }
+
+    .block5 > .sector_top > .sector2 {
+        background-color: yellow;
+        width: 100%;
+        height: 16.6%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .block5 > .sector_top > .sector2 > .min_sector {
+        background-color: #a6a6a6;
+        width: 40%;
+        height: 80%;
+    }
+
+    .block5 > .sector_top > .sector3 {
+        background-color: yellow;
+        width: 100%;
+        height: 16.7%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .block5 > .sector_top > .sector3 > .min_sector {
+        background-color: #a6a6a6;
+        width: 40%;
+        height: 80%;
+    }
+
+    .block5 > .sector_top > .sector4 {
+        background-color: yellow;
+        width: 100%;
+        height: 16.7%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .block5 > .sector_top > .sector4 > .min_sector {
+        background-color: #a6a6a6;
+        width: 40%;
+        height: 80%;
+    }
+
+    .block5 > .sector_top > .sector5 {
+        background-color: yellow;
+        width: 100%;
+        height: 16.7%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .block5 > .sector_top > .sector5 > .min_sector {
+        background-color: #a6a6a6;
+        width: 40%;
+        height: 80%;
+    }
+
+    .block5 > .sector_top > .sector6 {
+        background-color: yellow;
+        width: 100%;
+        height: 16.7%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .block5 > .sector_top > .sector6 > .min_sector {
+        background-color: #a6a6a6;
+        width: 40%;
+        height: 80%;
+    }
+
+    .block5 > .sector_bottom {
+        background-color: yellow;
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block5 > .sector_bottom > .min_sector {
+        background-color: #a6a6a6;
+        width: 100px;
+        height: 25px;
+    }
+
+    .block6 {
+        background-color: white;
+        width: 20%;
+        height: 100%;
+    }
+
+    .block6 > .left_sector {
+        background-color: white;
+        width: 100%;
+        height: 90%;
+    }
+
+    .block6 > .left_sector > .min_sector, .add_left_min_sector, .add1_left_min_sector {
+        background-color: #a6a6a6;
+        width: 80%;
+        height: 10%;
+        margin: 10px 22px;
+    }
+
+    .block7 {
+        background-color: rebeccapurple;
+        width: 100%;
+        height: 100px;
+    }
+
+    .block7 > .top_block {
+        background-color: #a2c3ff;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .block7 > .top_block > .sector {
+        background-color: #a6a6a6;
+        width: 90%;
+        height: 40%;
+        margin: 9px;
+    }
+
+    .block7 > .bottom_block {
+        background-color: #8bb2f8;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .block7 > .bottom_block > .sector {
+        background-color: #a6a6a6;
+        width: 12%;
+        height: 40%;
+        margin: 9px;
+    }
+
+
+}
+
+@media screen and (min-width: 972px) and (max-width: 1280px) {
+    .top_block {
+        background-color: #1f1f1f;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .top_block > .sector {
+        background-color: #a6a6a6;
+        width: 150px;
+        height: 30px;
+        margin: 0 17px;
+    }
+
+    .block3 {
+        background-color: plum;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block3 > .sector {
+        background-color: #a6a6a6;
+        width: 93%;
+        height: 70%;
+    }
+
+    .block4 {
+        background-color: #5b8303;
+        width: 100%;
+        height: 300px;
+    }
+
+    .block4 > .sector_top {
+        background-color: #5726ea;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .block4 > .sector_top > .min_sector {
+        background-color: #a6a6a6;
+        width: 45%;
+        height: 90%;
+    }
+
+    .block4 > .sector_bottom {
+        background-color: #5726ea;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .block4 > .sector_bottom > .min_sector {
+        background-color: #a6a6a6;
+        width: 45%;
+        height: 80%;
+    }
+
+    .block5-6 {
+        width: 100%;
+        height: 600px;
+    }
+
+    .block5 {
+        background-color: yellow;
+        width: 100%;
+        height: 400px;
+    }
+
+    .block5 > .sector_top {
+        width: 100%;
+        height: 33.33%;
+    }
+
+    .block5 > .sector_top > .sector1 {
+        background-color: #009a00;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .block5 > .sector_top > .sector1 > .min_sector, .min_sector2 {
+        background-color: #a6a6a6;
+        width: 45%;
+        height: 90%;
+        display: flex;
+    }
+
+    .block5 > .sector_top > .sector2 {
+        background-color: #009a00;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .block5 > .sector_top > .sector2 > .min_sector {
+        background-color: #a6a6a6;
+        width: 45%;
+        height: 90%;
+        display: flex;
+    }
+
+    .block5 > .sector_top > .sector3 {
+        background-color: #009a00;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .block5 > .sector_top > .sector3 > .min_sector {
+        background-color: #a6a6a6;
+        width: 45%;
+        height: 90%;
+        display: flex;
+    }
+
+    .block5 > .sector_bottom {
+        background-color: #a2c3ff;
+        width: 100%;
+    }
+
+    .block6 {
+        background-color: aquamarine;
+        width: 100%;
+        height: 200px;
+        display: flex;
+    }
+
+    .block6 > .left_sector {
+        background-color: rebeccapurple;
+        width: 50%;
+        height: 100%;
+    }
+
+    .block6 > .left_sector > .min_sector, .add_left_min_sector {
+        background-color: #a6a6a6;
+        width: 90%;
+        height: 23%;
+        margin: 15px 24px;
+    }
+
+    .block6 > .right_sector {
+        background-color: rebeccapurple;
+        width: 50%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block6 > .right_sector > .min_sector {
+        background-color: #a6a6a6;
+        width: 90%;
+        height: 90%;
+    }
+
+
+    .block7 {
+        background-color: #521111;
+        width: 100%;
+        height: 100px;
+    }
+
+    .block7 > .top_block {
+        background-color: #009a00;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: end;
+    }
+
+    .block7 > .top_block > .sector {
+        background-color: #a6a6a6;
+        width: 80%;
+        height: 40%;
+        margin-bottom: 8px;
+    }
+
+    .block7 > .bottom_block {
+        background-color: #0e250e;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+    }
+
+    .block7 > .bottom_block > .sector {
+        background-color: #a6a6a6;
+        width: 25%;
+        height: 40%;
+        margin-top: 8px;
+    }
+
+}
+
+@media screen and (min-width: 0) and (max-width: 972px) {
+    .top_block {
+        background-color: white;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+        align-items: end;
+    }
+
+    .top_block > .sector {
+        background-color: #a6a6a6;
+        width: 95%;
+        height: 30%;
+        margin-bottom: 10px;
+    }
+
+    .block3 {
+        background-color: white;
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block3 > .sector {
+        background-color: #a6a6a6;
+        width: 90%;
+        height: 90%;
+    }
+
+    .block4 {
+        background-color: white;
+        width: 100%;
+        height: 300px;
+    }
+
+    .block4 > .sector_top {
+        background-color: white;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .block4 > .sector_top > .min_sector {
+        background-color: #a6a6a6;
+        width: 45%;
+        height: 90%;
+    }
+
+    .block4 > .sector_bottom {
+        background-color: white;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .block4 > .sector_bottom > .min_sector {
+        background-color: #a6a6a6;
+        width: 45%;
+        height: 80%;
+    }
+
+    .block5 {
+        background-color: yellow;
+        width: 100%;
+        height: 450px;
+    }
+
+    .block5 > .sector_top {
+        background-color: #c000ff;
+        width: 100%;
+        height: 80%;
+    }
+
+    .block5 > .sector_top > .sector1 {
+        background-color: white;
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block5 > .sector_top > .sector1 > .min_sector {
+        background-color: #a6a6a6;
+        width: 95%;
+        height: 90%;
+    }
+
+    .block5 > .sector_top > .sector2 {
+        background-color: white;
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block5 > .sector_top > .sector2 > .min_sector {
+        background-color: #a6a6a6;
+        width: 95%;
+        height: 90%;
+    }
+
+    .block5 > .sector_top > .sector3 {
+        background-color: white;
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block5 > .sector_top > .sector3 > .min_sector {
+        background-color: #a6a6a6;
+        width: 95%;
+        height: 90%;
+    }
+
+    .block5 > .sector_top > .sector4 {
+        background-color: white;
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block5 > .sector_top > .sector4 > .min_sector {
+        background-color: #a6a6a6;
+        width: 95%;
+        height: 90%;
+    }
+
+
+    .block5 > .sector_top > .sector5 {
+        background-color: white;
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block5 > .sector_top > .sector5 > .min_sector {
+        background-color: #a6a6a6;
+        width: 95%;
+        height: 90%;
+    }
+
+    .block5 > .sector_bottom {
+        background-color: white;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .block5 > .sector_bottom > .min_sector {
+        background-color: #a6a6a6;
+        width: 20%;
+        height: 7%;
+        margin-top: 10px;
+    }
+
+    .block6 {
+        background-color: rebeccapurple;
+        width: 100%;
+        height: 550px;
+    }
+
+    .block6 > .left_sector {
+        background-color: white;
+        width: 100%;
+        height: 50%;
+    }
+
+    .block6 > .left_sector > .min_sector, .add_left_min_sector {
+        background-color: #a6a6a6;
+        width: 90%;
+        height: 20%;
+        margin: 40px;
+    }
+
+    .block6 > .right_sector {
+        background-color: white;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .block6 > .right_sector > .min_sector {
+        background-color: #a6a6a6;
+        width: 90%;
+        height: 90%;
+    }
+
+    .block7 {
+        background-color: #5726ea;
+        width: 100%;
+        height: 150px;
+    }
+
+    .block7 > .top_block {
+        background-color: white;
+        width: 100%;
+        height: 50%;
+    }
+
+    .block7 > .bottom_block {
+        background-color: white;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .block7 > .bottom_block > .sector {
+        background-color: #a6a6a6;
+        width: 30%;
+        height: 20px;
+    }
+}
+
